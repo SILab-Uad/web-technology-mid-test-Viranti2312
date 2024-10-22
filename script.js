@@ -7,7 +7,6 @@ const generatePassword = (length, options) => {
   const specialChars = "!@#$%^&*()_+[]{}|;:,.<>?";
 
   // TODO: Create a variable for the character set based on selected options
-  let characterPool = "";
   if (options.includeUppercase) characterPool += uppercase;
   if (options.includeLowercase) characterPool += lowercase;
   if (options.includeNumbers) characterPool += numbers;
